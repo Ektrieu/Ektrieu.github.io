@@ -85,6 +85,12 @@ table {
 	margin-top:50%;	
 }
 
+#sidebar {
+	text-align: right;
+	padding-right: 20%;
+
+}
+
 #page {clear:left;
 	float:left;
 	margin-left:20%;}
