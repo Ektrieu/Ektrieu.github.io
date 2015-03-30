@@ -80,10 +80,8 @@ html[xmlns] .clearfix { display: block; }
 
 header { position: relative;  
 
-	margin-left: auto;
 	text-align:center;
 	padding:10px;
-	width: 100%;
 }
 
 h1 { 
@@ -118,7 +116,7 @@ nav a{
 	float: left;
 	text-align: center;
 	font-family: verdana;
-	padding:10px;
+	padding-right:10px;
 }
 
 article{
@@ -128,7 +126,8 @@ article{
 	margin-top: 2%;
 	margin-left: 5%;
 	margin-bottom: 8%;
-
+	display: inline;
+	height: auto;
 }
 
 body{ 
@@ -152,6 +151,7 @@ footer{
 
 
 }
+
 
 .left {
 	padding-top: 15px;
