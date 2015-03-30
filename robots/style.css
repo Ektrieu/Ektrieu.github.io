@@ -80,10 +80,17 @@ table {
 	font-family: sans-serif;
 	font-weight: bold;
 	text-decoration: none;
+	float: left;
 	
 }
 
-
+#footer-wrapper {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 12%;
+	background-color: SaddleBrown;
+	margin-top:50%;	
+}
 
 
 
