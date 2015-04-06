@@ -75,6 +75,7 @@ table {
 #top-nav a {
 	text-decoration:none;
 	color:brown;	
+	
 }
 
 #main-menu {
@@ -169,6 +170,7 @@ li{line-height:20px;}
 	padding-bottom: 12%;
 	background-color: Brown;
 	margin-top:50%;	
+	width: 100%;
 }
 
 #footer-wrapper h1 {

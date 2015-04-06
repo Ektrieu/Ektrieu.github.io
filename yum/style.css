@@ -55,12 +55,11 @@ table {
 
 
 header {
-border-width: 500px;
+
 font-size: 50px;
 font-family: sans-serif;
 font-style: italic;
 float: right;
-padding-left: 30%;
 text-transform: uppercase;
 margin-left: 5%;
 
@@ -87,6 +86,7 @@ body { width: 80%;
 
 h3 {
 	float: left;
+	clear:both;
 }
 
 h4 {
@@ -96,20 +96,22 @@ h4 {
 
 
 footer{
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 
 #Leftside {
 	float:left;
 	width:20%;
-display: inline-block;
+	display: inline-block;
+	clear:both;
 }
 
 #rightside {
-	float:right;
+	float:left;
 	width:40%;
 	margin:15px 20px 20px 40px;
 	display: inline-block;
+	clear:both;
 }
 
