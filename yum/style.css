@@ -101,12 +101,13 @@ footer{
 #Leftside {
 	float:left;
 	width:20%;
-
+display: inline-block;
 }
 
 #rightside {
 	float:right;
 	width:40%;
 	margin:15px 20px 20px 40px;
+	display: inline-block;
 }
 
