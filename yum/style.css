@@ -55,8 +55,58 @@ table {
 
 
 header {
-font-size: 30pt;
+
+font-size: 50px;
 font-family: sans-serif;
-font-weight: bolder;
 font-style: italic;
+float: right;
+padding-left: 30%;
+text-transform: uppercase;
+margin-left: 5%;
+
 }
+
+h1 {
+
+	font-weight: bolder;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 40px;
+	padding-left: 60px;
+}
+
+body { width: 100%;
+	margin-top: 5%;
+	
+
+}
+
+h3 {
+	float: left;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+
+
+footer{
+	padding-top: 10px;
+}
+
+
+#Leftside {
+	float:left;
+	width:20%;
+
+}
+
+#rightside {
+	float:right;
+	width:40%;
+	margin:15px 20px 20px 40px;
+}
+
