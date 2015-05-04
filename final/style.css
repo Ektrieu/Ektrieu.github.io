@@ -1,5 +1,4 @@
 
-
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -19,6 +18,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -50,6 +50,97 @@ table {
 	border-spacing: 0;
 }
 
-/* END RESET */
+/* -----------------END RESET---------------- */
+
+
+#main-menu {
+	height: 60px;
+	background-color:black;
+	width: 100%;
+	position:fixed;
+}
+
+a {
+ text-decoration:none;
+ color:white;
+ padding: 10px 10px 0px 0px;
+ font-size: 1em;
+}
+
+.logo {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	font-size: 2em;
+	letter-spacing: 2pt;
+	font-family: helvetica;
+}
+
+header {
+	position:fixed;
+    background-color:none;
+}
+
+
+ul.navbar{
+	width:30%;
+	position:absolute;
+	top:35%;
+	right:20px;
+}
+
+.navbar li {
+	float:right;
+	padding: 10px;
+}
+
+#maingallery li  {
+	height:100%;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+#gallery1 {
+	float:left; 
+
+
+}
+
+#gallery2 {
+	float:left; 
+
+}
+
+
+.footer-wrap {
+	clear:both;
+	position: relative;
+	background:black;
+	padding-top: 20px;
+	height:80px;
+	width:100%;
+}
+
+.footer {
+	margin:0 auto;
+	color:white;
+	padding-bottom:1.125em;
+}
+
+.footsignature, .footcontactz {
+	float:left;
+}
+
+.footsignature {font-size:16pt;
+	font-size:1em;
+	padding:2.5em 0 0 1.8em;
+	width:30%;
+}
+.footcontact, .footaddress {font-size:15px;font-size:1.5rem;line-height:1.733em;padding-top:2.667em;width:23.5%}
+.footcontact a {color:#fff; padding-bottom:0.267em;}
+.footcontact a:hover {color:#ddd;}
+
 
 
