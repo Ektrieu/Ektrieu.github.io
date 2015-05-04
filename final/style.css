@@ -54,7 +54,7 @@ table {
 
 
 #main-menu {
-	height: 60px;
+	height: 70px;
 	background-color:black;
 	width: 100%;
 	position:fixed;
@@ -92,25 +92,56 @@ ul.navbar{
 .navbar li {
 	float:right;
 	padding: 10px;
+	font-family: Helvetica;
+
 }
 
+.navbar a:hover {
+	color:#ddd;
+}
+
+
+
 #maingallery li  {
-	height:100%;
-	margin-top: 10px;
-	padding-left: 10px;
-	padding-top: 10px;
+
+	margin:0 auto;
 }
 
 
 #gallery1 {
+
 	float:left; 
 
 
 }
 
 #gallery2 {
+	
 	float:left; 
 
+}
+
+img {
+
+	float:left;
+	padding: 1em 1em 1em 1em;
+}
+
+body {
+
+	position: absolute;
+	float: left;
+}
+
+h2 {
+
+	font-family: helvetica;
+	color:black;
+	size:1em;
+}
+
+h3 {
+	font-style: bold;
 }
 
 
@@ -118,29 +149,42 @@ ul.navbar{
 	clear:both;
 	position: relative;
 	background:black;
+	margin-top: 10%;
 	padding-top: 20px;
-	height:80px;
+	height:30%;
 	width:100%;
 }
 
+#contact {
+	font-size:16px;
+	line-height:1.5em;
+	padding-top:1.5em;
+	padding-left:20px;
+
+}
+
+
 .footer {
-	margin:0 auto;
+	clear: both;
 	color:white;
-	padding-bottom:1.125em;
+	font-size: 2em;
+	letter-spacing: 2pt;
+	font-family: helvetica;
 }
 
-.footsignature, .footcontactz {
-	float:left;
-}
 
-.footsignature {font-size:16pt;
-	font-size:1em;
-	padding:2.5em 0 0 1.8em;
-	width:30%;
+.footcontact {
+	font-size:16px;
+	line-height:1.5em;
+	padding-top:1.5em;
+	padding-left:20px;
+	padding-bottom:1.5em;
+	width:30%}
+
+
+.footcontact a:hover {
+	color:#ddd;
 }
-.footcontact, .footaddress {font-size:15px;font-size:1.5rem;line-height:1.733em;padding-top:2.667em;width:23.5%}
-.footcontact a {color:#fff; padding-bottom:0.267em;}
-.footcontact a:hover {color:#ddd;}
 
 
 
