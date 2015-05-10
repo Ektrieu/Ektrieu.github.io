@@ -76,9 +76,14 @@ a {
 	font-family: helvetica;
 }
 
-header {
+#headerwrapper{
 	position:fixed;
+
+}
+
+header {
     background-color:none;
+    height:100px;
 }
 
 
@@ -93,7 +98,7 @@ ul.navbar{
 	float:right;
 	padding: 10px;
 	font-family: Helvetica;
-
+	display: inline;
 }
 
 .navbar a:hover {
@@ -102,46 +107,50 @@ ul.navbar{
 
 
 
-#maingallery li  {
-
-	margin:0 auto;
-}
-
-
-#gallery1 {
-
-	float:left; 
-
-
-}
-
-#gallery2 {
-	
-	float:left; 
-
-}
-
-img {
-
+ul #cover {
+	clear: both;
+	width:33%;
 	float:left;
-	padding: 1em 1em 1em 1em;
+	padding: 1% 1% 1% 1%;
 }
 
-body {
 
-	position: absolute;
+#mephoto {
 	float: left;
+}
+
+
+.content {
+
+	margin:0% 5% 5% 5%;
+}
+
+#bodytext {
+
+	float: left;
+	font-family: Helvetica;
+	position: fixed;
+	margin-left: 50%;
+	margin-top: 10%;
+	margin-right: 5%;
+
+}
+
+#photos  {
+	float: left;
+	padding: 1em 1em 1em 1em;
 }
 
 h2 {
 
 	font-family: helvetica;
-	color:black;
+	background-color:pink;
 	size:1em;
 }
 
 h3 {
-	font-style: bold;
+	font-weight: bold;
+	font-size: 1.5em;
 }
 
 
@@ -149,7 +158,6 @@ h3 {
 	clear:both;
 	position: relative;
 	background:black;
-	margin-top: 10%;
 	padding-top: 20px;
 	height:30%;
 	width:100%;
@@ -167,7 +175,6 @@ h3 {
 .footer {
 	clear: both;
 	color:white;
-	font-size: 2em;
 	letter-spacing: 2pt;
 	font-family: helvetica;
 }
@@ -177,7 +184,7 @@ h3 {
 	font-size:16px;
 	line-height:1.5em;
 	padding-top:1.5em;
-	padding-left:20px;
+	padding-left:1em;
 	padding-bottom:1.5em;
 	width:30%}
 
