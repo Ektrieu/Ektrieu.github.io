@@ -53,6 +53,8 @@ table {
 /* -----------------END RESET---------------- */
 
 
+/* nav bar and wrapper stuff */
+
 #main-menu {
 	height: 70px;
 	background-color:black;
@@ -107,12 +109,17 @@ ul.navbar{
 
 
 
-ul #cover {
+/* front page covers */
+
+
+#coverlinks {
 	clear: both;
-	width:33%;
 	float:left;
-	padding: 1% 1% 1% 1%;
+	width:80%;
+	margin-top: auto 0;
 }
+
+
 
 
 #mephoto {
@@ -120,10 +127,8 @@ ul #cover {
 }
 
 
-.content {
 
-	margin:0% 5% 5% 5%;
-}
+
 
 #bodytext {
 
@@ -153,6 +158,9 @@ h3 {
 	font-size: 1.5em;
 }
 
+
+
+/* footer stuff */
 
 .footer-wrap {
 	clear:both;
