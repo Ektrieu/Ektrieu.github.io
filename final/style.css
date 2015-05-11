@@ -108,66 +108,119 @@ ul.navbar{
 }
 
 
-
 /* front page covers */
 
-
-#coverlinks {
-	clear: both;
-	float:left;
-	width:80%;
-	margin-top: auto 0;
 }
 
+#covers {
+	
+	width: 100% ;
+  	margin: 0 auto;
 
+}
 
+#covers a {
+	width: 25%;
+	float:left;
+	padding: 2% 2% 2% 2%;
+
+}
+
+#covers img {
+	
+	width: 100%;
+
+}
+
+/* about me page */
 
 #mephoto {
 	float: left;
-}
-
-
-
-
-
-#bodytext {
-
-	float: left;
-	font-family: Helvetica;
-	position: fixed;
-	margin-left: 50%;
-	margin-top: 10%;
-	margin-right: 5%;
-
-}
-
-#photos  {
-	float: left;
+	width: 55%;
 	padding: 1em 1em 1em 1em;
 }
 
-h2 {
+
+
+/* body for rest of pages */
+
+#sidebar-wrapper {
+	             float:left;
+	   	        
+				 
+				 height:400px;
+	   	         margin-top:5%;
+	   	         margin-left: 60%;
+	   	         position:fixed;
+	   	         
+
+
+
+	             }
+	   
+#sidebar {
+	
+	
+	     position:absolute;
+		 padding-left:15%;
+		 width:400px;
+		 line-height: 1.4em;
+
+
+	     }
+#sidebar p { width: 90%;
+		margin-right: 2%;
+
+
+
+}
+
+#photos img {
+	float: left;
+	width: 55%;
+	padding: 1em 1em 1em 1em;
+}
+
+
+
+h2 a {
 
 	font-family: helvetica;
-	background-color:pink;
+	color: grey;
 	size:1em;
+	width:40%;
+	float: left;
 }
 
 h3 {
 	font-weight: bold;
 	font-size: 1.5em;
+	line-height: 2em;
 }
 
 
+
+#buttons h2 {
+	display: inline-block;
+	float: left;
+	font color: grey; 
+
+
+}
+
+#buttons a:hover {
+	color:#ddd;
+}
 
 /* footer stuff */
 
 .footer-wrap {
 	clear:both;
-	position: relative;
+	position:relative;
+	
 	background:black;
 	padding-top: 20px;
-	height:30%;
+	height: 150px;
 	width:100%;
 }
 
@@ -181,18 +234,20 @@ h3 {
 
 
 .footer {
+
 	clear: both;
 	color:white;
 	letter-spacing: 2pt;
 	font-family: helvetica;
+
 }
 
 
 .footcontact {
-	font-size:16px;
+	font-size:1em;
 	line-height:1.5em;
 	padding-top:1.5em;
-	padding-left:1em;
+	padding-left:25px;
 	padding-bottom:1.5em;
 	width:30%}
 
